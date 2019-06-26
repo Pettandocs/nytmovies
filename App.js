@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import ReviewBlock from './ReviewBlock.js'
+import LatestReviewBlock from './ReviewBlock.js';
+import CriticsLatestPicks from './CriticsLatestPicks.js';
 import Search from './Search.js'
 function App() {
   return (
     <div className="App">
       <div className="Main">
-        <ReviewBlock/><Search/><ReviewBlock/>
+        <LatestReviewBlock/><Search/><CriticsLatestPicks/>
       </div>
     </div>
   );
