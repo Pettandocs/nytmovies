@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.SearchField {
+  margin: 1rem;
+  width: 20%;
+}
+
+.LatestPublishDate {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.Main {
+  display: flex;
+  margin: 1rem;
+}
+
+.ReviewBlock {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: black;
+  margin: 1rem;
+  text-align: left;
+}
+
+.LatestDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchButton {
+  background: lightgrey;
+  border: black solid 1px;
+  height: 2rem;
+  width: 4rem;
+}
+
+.SearchWrapper {
+  display:flex;
+  flex-direction: column;
+  flex: 4;
+  width: 100%;
+}
+
+.SearchInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+}
+
+.MovieDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MovieTitles {
+  margin-top: 1rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.SearchedMovieTitles{
+  margin-top: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.MovieTitlesSelected {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.LatestMovieInfo {
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.MovieInfo {
+  font-size: 14px;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.Headline {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.Info {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
